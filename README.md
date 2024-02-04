@@ -86,15 +86,19 @@ Django Restaurant Web Application is designed to provide a comprehensive solutio
    - Install required packages, migrate the database, and run the Django application.
      
 9. Accessing the Application:
-  - Access the web application through the public IP or domain associated with the Load Balancer.
+   - Access the web application through the public IP or domain associated with the Load Balancer.
      
 This enhanced architecture provides scalability and high availability by automatically adjusting resources based on demand and distributing traffic across multiple instances using a Load Balancer. Adjustments can be made based on specific requirements and best practices.
 
 ## Deploy Your Project on EC2
-` sudo yum -y update`
-`yum install git`
-`git clone "your repository link"`
-`cd My-Django-Project`
-`pip3 install -r requirements.txt`
-`python manage.py migrate`
-`python manage.py runserver 0.0.0.0:8000 `
+- ` sudo yum -y update`
+- `yum install git`
+- `git clone "your repository link"`
+- `cd My-Django-Project`
+- `pip3 install -r requirements.txt`
+- `python manage.py migrate`
+- `python manage.py runserver 0.0.0.0:8000 `
+
+## AWS Architecture
+![Highly Avaliable and Scalable AWS architecture](https://github.com/Mahmoudgaber114/Django-Restaurant-Web-Application/assets/65420063/151a2eed-8bb4-40bc-843c-9d7731c77bed)
+
