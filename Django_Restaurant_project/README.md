@@ -9,7 +9,7 @@ Django Restaurant Web Application is designed to provide a comprehensive solutio
   - Order Placement: Allow users to customize their orders and submit them securely.
   - Responsive Design: Ensure compatibility across devices with a responsive design implemented using Bootstrap and CSS media queries.
      
-Technologies Used
+## Technologies Used
 1. Frontend:
    - HTML, CSS, JavaScript
    - Bootstrap framework for responsive design
