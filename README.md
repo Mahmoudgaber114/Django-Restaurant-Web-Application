@@ -48,7 +48,7 @@ Django Restaurant Web Application is designed to provide a comprehensive solutio
    - RDS Security Group: Allows inbound traffic on port 5432 from the EC2 instances and Load Balancer.
   
 10. Route 53 (Optional):
-   - Amazon Route 53 for domain registration and DNS management.
+    - Amazon Route 53 for domain registration and DNS management.
 
 ## Deployment Steps
 1. VPC Setup:
